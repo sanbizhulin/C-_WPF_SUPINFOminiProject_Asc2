@@ -1,0 +1,25 @@
+﻿<Page x:Class="WpfApplication1.Page0"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="Page0">
+
+    <Grid Background="Aqua">
+        <Button Content="ViewTrainer" Name="ViewTrainer" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button Content="ViewQuestion" Name="ViewQuestion" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" Width="279" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.503"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Validation" Name="Validation" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button Content="QuitMenu" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top" Width="280"/>
+    </Grid>
+</Page>
