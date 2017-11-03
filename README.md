@@ -12,6 +12,6 @@
 但是真的曾经会过，
 如果当时有写博客或者github的意识就好了。
 
-! [效果展示图1] (https://github.com/sanbizhulin/C-_WPF_SUPINFOminiProject_Asc2/blob/master/Resutl1.png)
+! [效果展示图1] (https://github.com/sanbizhulin/C-_WPF_SUPINFOminiProject_Asc2/raw/master/Resutl1.png)
 
 
